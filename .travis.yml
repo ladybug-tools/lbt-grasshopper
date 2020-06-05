@@ -27,13 +27,10 @@ jobs:
     if: branch = master AND (NOT type IN (pull_request))
     install:
     - pip install -r dev-requirements.txt
-    script:
-    - python ./pass_tests.py
     deploy:
       provider: pages
       skip_cleanup: true
       github-token: $GH_TOKEN
       keep-history: false
-      local_dir: docs/_build/
       on:
         branch: master
