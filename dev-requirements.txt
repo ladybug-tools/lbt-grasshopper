@@ -1,15 +1,4 @@
-ladybug-core==0.25.0
-ladybug-geometry==1.20.1
-ladybug-comfort==0.9.7
-honeybee-core==1.32.1
-honeybee-radiance==1.19.6
-honeybee-radiance-folder==2.0.1
-honeybee-radiance-command==1.0.0
-honeybee-energy==1.46.2
-honeybee-standards==1.1.2
-honeybee-energy-standards==1.4.3
-dragonfly-core==1.21.4
-dragonfly-energy==1.7.22
+lbt-dragonfly==0.4.1
 ladybug-rhino==1.9.0
 pytest==4.6.9;python_version<'3.0'
 pytest==5.4.3;python_version>='3.6'
