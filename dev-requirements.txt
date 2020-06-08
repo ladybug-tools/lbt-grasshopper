@@ -1,4 +1,4 @@
-lbt-dragonfly==0.4.4
+lbt-dragonfly==0.4.5
 ladybug-rhino==1.9.0
 pytest==4.6.9;python_version<'3.0'
 pytest==5.4.3;python_version>='3.6'
