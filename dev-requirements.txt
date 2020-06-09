@@ -1,4 +1,4 @@
-lbt-dragonfly==0.4.9
+lbt-dragonfly==0.4.10
 ladybug-rhino==1.9.0
 honeybee-standards==1.1.2
 honeybee-energy-standards==1.4.3
