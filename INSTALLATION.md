@@ -55,7 +55,7 @@ Check the compatibility matrix below to determine which version of Radiance is
 compatible with your version of Ladybug Tools.
 [Download that version of Radiance from the Radiance Github](https://github.com/NREL/Radiance/releases)
 
-9. Run the Radiance executable. When you get to "Installation Folder,"
+9. Run the Radiance executable. When you get to "Choose Install Location,"
 __INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so:
 
 ![Install Radiance Location](https://user-images.githubusercontent.com/5567574/84214321-0b03ce00-aa91-11ea-943a-ba109694dfe0.png)
@@ -63,7 +63,7 @@ __INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so:
 10. Finally, go back to the installer.gh file and set the second toggle to true:
 
 ![Run Second Component](https://user-images.githubusercontent.com/5567574/84214364-2a9af680-aa91-11ea-8ba5-65c6041fbea6.png)
-It will take a few seconds to download the correct versions of Ladybug Tools.
+It will take a few seconds to download the Ladybug Tools packages.
 
 11. If the component runs to completion without turning red, congratulations! You did
 the steps correctly and you now have a working version of Ladybug Tools.
