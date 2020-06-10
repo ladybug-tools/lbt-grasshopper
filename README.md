@@ -21,3 +21,8 @@ following Grasshopper plugin packages:
 * [honeybee-grasshopper-radiance](https://github.com/ladybug-tools/honeybee-grasshopper-radiance)
 * [honeybee-grasshopper-radiance](https://github.com/ladybug-tools/honeybee-grasshopper-energy)
 * [dragonfly-grasshopper](https://github.com/ladybug-tools/dragonfly-grasshopper)
+
+## Installation
+
+See [the INSTALLATION.md file in this repository](https://github.com/ladybug-tools/lbt-grasshopper/blob/master/INSTALLATION.md)
+for a list of instructions for installing the plugin in Grasshopper.
