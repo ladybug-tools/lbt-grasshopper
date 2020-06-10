@@ -31,6 +31,7 @@ the fastest-growing programming languages.
 [Download the latest version of Python from python.org](https://www.python.org/downloads/)
 
 4. Run the Python executable and select "Customize Installation"
+
 ![Python custom Installation](https://user-images.githubusercontent.com/5567574/84215321-eb21d980-aa93-11ea-92b3-a3685c11b2f4.png)
 
 5. When you get to "Advanced Options," __INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so:
@@ -48,18 +49,19 @@ __INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so:
 
 ![Install OpenStudio Location](https://user-images.githubusercontent.com/5567574/84213878-cf1c3900-aa8f-11ea-8ac6-6316e16df98e.png)
 
-8. The second software package you need to install is Radiance. Radiance is a physics-based
+8. The third software package you need to install is Radiance. Radiance is a physics-based
 rendering engine, which is what Honeybee uses for all daylight and spatial solar studies.
 Check the compatibility matrix below to determine which version of Radiance is
 compatible with your version of Ladybug Tools.
 [Download that version of Radiance from the Radiance Github](https://github.com/NREL/Radiance/releases)
 
 9. Run the Radiance executable. When you get to "Installation Folder,"
-__INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so"
+__INSTALL IT IN THE FOLDER NOTED IN THE INSTALLER.GH__ like so:
 
 ![Install Radiance Location](https://user-images.githubusercontent.com/5567574/84214321-0b03ce00-aa91-11ea-943a-ba109694dfe0.png)
 
 10. Finally, go back to the installer.gh file and set the second toggle to true:
+
 ![Run Second Component](https://user-images.githubusercontent.com/5567574/84214364-2a9af680-aa91-11ea-8ba5-65c6041fbea6.png)
 It will take a few seconds to download the correct versions of Ladybug Tools.
 
