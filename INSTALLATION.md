@@ -76,4 +76,4 @@ language/simulation engine.
 
 | Ladybug Tools | Python | OpenStudio | Radiance       |
 | ------------- | ------ | ---------- | -------------- |
-| 1.0.0         | >=3.6  | 3.0.0      | 5.2.e4d2f765dc |
+| 1.0.0         | 3.82   | 3.0.0      | 5.2.e4d2f765dc |
