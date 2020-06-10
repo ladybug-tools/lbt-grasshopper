@@ -30,7 +30,7 @@ Python that can be [downloaded from this link as a .zip file](https://ladybug-to
 be `C:\Users\[USERNAME]\ladybug_tools\python` but with your own username for `[USERNAME]`.
 At the end you should have something that looks like this:
 
-![Install Python Location]((https://user-images.githubusercontent.com/5567574/84322480-11528280-ab43-11ea-82dd-3b19af31d7b0.png))
+![Install Python Location](https://user-images.githubusercontent.com/5567574/84322480-11528280-ab43-11ea-82dd-3b19af31d7b0.png)
 
 5. The second software package you need to install is OpenStudio. OpenStudio is a
 programming interface for EnergyPlus, which is the engine that Honeybee uses for
