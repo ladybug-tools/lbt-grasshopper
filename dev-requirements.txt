@@ -1,5 +1,5 @@
 lbt-dragonfly==0.4.12
-ladybug-rhino==1.10.0
+ladybug-rhino==1.10.1
 honeybee-standards==1.1.2
 honeybee-energy-standards==1.4.3
 pytest==4.6.9;python_version<'3.0'
