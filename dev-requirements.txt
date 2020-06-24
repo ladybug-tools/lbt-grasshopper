@@ -6,6 +6,6 @@ pytest==4.6.9;python_version<'3.0'
 pytest==5.4.3;python_version>='3.6'
 pytest-cov==2.10.0
 twine==1.13.0;python_version<'3.0'
-twine==3.1.1;python_version>='3.6'
+twine==3.2.0;python_version>='3.6'
 setuptools==44.1.0;python_version<'3.0'
 setuptools==47.3.1;python_version>='3.6'
