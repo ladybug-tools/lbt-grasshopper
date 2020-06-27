@@ -1,7 +1,7 @@
 lbt-dragonfly==0.4.34
 ladybug-rhino==1.10.6
 honeybee-standards==2.0.0
-honeybee-energy-standards==1.4.3
+honeybee-energy-standards==2.0.0
 pytest==4.6.9;python_version<'3.0'
 pytest==5.4.3;python_version>='3.6'
 pytest-cov==2.10.0
