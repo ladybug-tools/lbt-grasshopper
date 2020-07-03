@@ -24,5 +24,5 @@ following Grasshopper plugin packages:
 
 ## Installation
 
-See [the INSTALLATION.md file in this repository](https://github.com/ladybug-tools/lbt-grasshopper/blob/master/INSTALLATION.md)
+See [the wiki of this repository](https://github.com/ladybug-tools/lbt-grasshopper/wiki)
 for a list of instructions for installing the plugin in Grasshopper.
