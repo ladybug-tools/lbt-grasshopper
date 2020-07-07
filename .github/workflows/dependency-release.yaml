@@ -1,0 +1,47 @@
+name: CI
+
+on: repository_dispatch
+
+jobs:
+  bump_openstudio_gem:
+    name: "Check Event"
+    runs-on: ubuntu-latest
+    if: github.event.action == 'honeybee_openstudio_gem_release'
+
+    steps:
+    - name: "Checkout Master Branch"
+      uses: actions/checkout@v2
+      with:
+        ref: refs/heads/master
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: "Get Old Version"
+      run: |
+        export OLD_VERSION=$(gawk 'match($0, /honeybee-openstudio-gem==(.*)/, ary) {print ary[1]}'  ruby-requirements.txt)
+        echo "::set-env name=OLD_VERSION::$OLD_VERSION"
+      
+    - name: "Run Update Script"
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        export CLEAN_VERSION=$(echo $VERSION | sed 's/v//g')
+        sed -i --regexp-extended 's/(honeybee-openstudio-gem==).*/honeybee-openstudio-gem=='"$CLEAN_VERSION"'/' ruby-requirements.txt
+
+    - name: "Set Commit Message"
+      id: vars
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        echo ::set-output name=commit_message::"fix(deps): bump honeybee-openstudio-gem from v$OLD_VERSION to $VERSION"
+
+
+    - name: "Commit and Push Changes"
+      id: push
+      env:
+        COMMIT_MESSAGE: ${{ steps.vars.outputs.commit_message }}
+      run: |
+        git config --global user.name 'ladybugbot'
+        git config --global user.email 'ladybugbot@users.noreply.github.com'
+        git add .
+        git commit -m "$COMMIT_MESSAGE"
+        git push
