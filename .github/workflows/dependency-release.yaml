@@ -32,7 +32,7 @@ jobs:
       env:
         VERSION: ${{ github.event.client_payload.version }}
       run: |
-        echo ::set-output name=commit_message::"fix(deps): bump honeybee-openstudio-gem from v$OLD_VERSION to $VERSION"
+        echo ::set-output name=commit_message::"chore(deps): bump honeybee-openstudio-gem from v$OLD_VERSION to $VERSION"
 
 
     - name: "Commit and Push Changes"
