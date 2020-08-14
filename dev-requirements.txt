@@ -4,7 +4,7 @@ honeybee-standards==2.0.0
 honeybee-energy-standards==2.0.1
 pytest==4.6.9;python_version<'3.0'
 pytest==6.0.1;python_version>='3.6'
-pytest-cov==2.10.0
+pytest-cov==2.10.1
 twine==1.13.0;python_version<'3.0'
 twine==3.2.0;python_version>='3.6'
 setuptools==44.1.0;python_version<'3.0'
