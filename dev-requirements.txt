@@ -1,5 +1,5 @@
 lbt-dragonfly==0.4.155
-queenbee-luigi==0.5.0
+queenbee-luigi==0.5.1
 ladybug-rhino==1.11.3
 honeybee-radiance-recipe==0.2.1
 honeybee-standards==2.0.0
