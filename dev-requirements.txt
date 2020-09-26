@@ -6,7 +6,7 @@ honeybee-standards==2.0.0
 honeybee-energy-standards==2.0.2
 ladybug-grasshopper-dotnet==1.0.0
 pytest==4.6.9;python_version<'3.0'
-pytest==6.0.2;python_version>='3.6'
+pytest==6.1.0;python_version>='3.6'
 pytest-cov==2.10.1
 twine==1.13.0;python_version<'3.0'
 twine==3.2.0;python_version>='3.6'
