@@ -4,7 +4,7 @@ ladybug-rhino==1.19.1
 honeybee-radiance-recipe==0.3.1
 honeybee-standards==2.0.0
 honeybee-energy-standards==2.0.2
-ladybug-grasshopper-dotnet==1.0.0
+ladybug-grasshopper-dotnet==1.0.1
 pytest==4.6.9;python_version<'3.0'
 pytest==6.1.0;python_version>='3.6'
 pytest-cov==2.10.1
