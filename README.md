@@ -25,4 +25,9 @@ following Grasshopper plugin packages:
 ## Installation
 
 See [the wiki of this repository](https://github.com/ladybug-tools/lbt-grasshopper/wiki)
-for a list of instructions for installing the plugin in Grasshopper.
+for a list of instructions to install the Grasshopper plugin for free.
+
+Ladybug Tools also offers purchase-able single-click executable installers,
+which make it much faster and easier to install, particularly in the case of
+deploying to multiple machines. If you are interested in purchasing the installer,
+please email info@ladybug.tools
