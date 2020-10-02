@@ -19,7 +19,7 @@ following Grasshopper plugin packages:
 * [ladybug-grasshopper](https://github.com/ladybug-tools/ladybug-grasshopper)
 * [honeybee-grasshopper-core](https://github.com/ladybug-tools/honeybee-grasshopper-core)
 * [honeybee-grasshopper-radiance](https://github.com/ladybug-tools/honeybee-grasshopper-radiance)
-* [honeybee-grasshopper-radiance](https://github.com/ladybug-tools/honeybee-grasshopper-energy)
+* [honeybee-grasshopper-energy](https://github.com/ladybug-tools/honeybee-grasshopper-energy)
 * [dragonfly-grasshopper](https://github.com/ladybug-tools/dragonfly-grasshopper)
 
 ## Installation
