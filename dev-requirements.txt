@@ -5,11 +5,9 @@ honeybee-radiance-recipe==0.3.2
 honeybee-standards==2.0.0
 honeybee-energy-standards==2.0.3
 ladybug-grasshopper-dotnet==1.0.1
-pytest==4.6.9;python_version<'3.0'
-pytest==6.1.2;python_version>='3.6'
+pytest==6.1.2
 pytest-cov==2.10.1
-twine==1.13.0;python_version<'3.0'
-twine==3.2.0;python_version>='3.6'
-setuptools==44.1.0;python_version<'3.0'
-setuptools==50.3.2;python_version>='3.6'
-importlib-metadata==3.1.0
+twine==3.2.0
+wheel==0.36.0
+setuptools==50.3.2
+importlib-metadata==3.1.1

@@ -1,4 +1,4 @@
-name: CI
+name: CI-On-Dispatch
 
 on: repository_dispatch
 
