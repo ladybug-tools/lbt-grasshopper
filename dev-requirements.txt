@@ -7,7 +7,7 @@ honeybee-energy-standards==2.0.3
 ladybug-grasshopper-dotnet==1.0.1
 pytest==6.2.1
 pytest-cov==2.10.1
-twine==3.2.0
+twine==3.3.0
 wheel==0.36.2
 setuptools==51.1.0
 importlib-metadata==3.3.0
