@@ -4,6 +4,19 @@ on: [push, pull_request]
 
 jobs:
 
+  test:
+    name: Pass tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: dummy test passing
+        run:
+          python ./pass_tests.py
+
   deploy:
     name: Deploy to GitHub and PyPI
     runs-on: ubuntu-latest
