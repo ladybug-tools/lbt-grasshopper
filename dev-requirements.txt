@@ -10,4 +10,4 @@ pytest-cov==2.10.1
 twine==3.3.0
 wheel==0.36.2
 setuptools==51.1.2
-importlib-metadata==3.3.0
+importlib-metadata==3.4.0
