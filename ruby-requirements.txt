@@ -1,1 +1,1 @@
-honeybee-openstudio-gem==2.18.1
+honeybee-openstudio-gem==2.19.0
