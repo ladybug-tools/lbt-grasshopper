@@ -14,11 +14,6 @@ jobs:
       with:
         ref: refs/heads/master
         token: ${{ secrets.DEPS_UPDATING }}
-
-    - name: "Get Old Version"
-      run: |
-        export OLD_VERSION=$(gawk 'match($0, /honeybee-openstudio-gem==(.*)/, ary) {print ary[1]}'  ruby-requirements.txt)
-        echo "::set-env name=OLD_VERSION::$OLD_VERSION"
       
     - name: "Run Update Script"
       env:
@@ -32,8 +27,7 @@ jobs:
       env:
         VERSION: ${{ github.event.client_payload.version }}
       run: |
-        echo ::set-output name=commit_message::"chore(deps): bump honeybee-openstudio-gem from v$OLD_VERSION to $VERSION"
-
+        echo ::set-output name=commit_message::"chore(deps): bump honeybee-openstudio-gem to $VERSION"
 
     - name: "Commit and Push Changes"
       id: push
