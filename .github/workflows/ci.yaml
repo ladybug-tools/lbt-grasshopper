@@ -37,7 +37,7 @@ jobs:
           pip install -r ci-requirements.txt
       - name: install semantic-release
         run:
-          npm install @semantic-release/exec@17.4.7
+          npm install @semantic-release/exec@5.0.0
       - name: run semantic release
         run:
           npx semantic-release
