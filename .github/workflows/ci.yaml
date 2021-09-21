@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: 3.7
       - name: set up node  # we need node for for semantic release
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 16.9.1
       - name: install python dependencies
