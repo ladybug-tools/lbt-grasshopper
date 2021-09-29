@@ -39,9 +39,26 @@ jobs:
         run:
           npm install @semantic-release/exec
       - name: run semantic release
+        id: new_release
         run:
+          nextRelease="`npx semantic-release@^17.0.0 --dryRun | grep -oP 'Published release \K.*? ' || true`"
           npx semantic-release@^17.0.0
+          echo "::set-output name=tag::$nextRelease"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
           PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
+      - name: sleep for 3 minutes for PyPI update
+        if: contains(steps.new_release.outputs.tag, '.')
+        run: sleep 180s
+        shell: bash
+      - name: Update ladybug-tools-installer
+        if: contains(steps.new_release.outputs.tag, '.')
+        env:
+          DISPATCH_REPO: pollination/ladybug-tools-installer
+          DEPS_TOKEN: ${{ secrets.DEPS_UPDATING }}
+        run: |
+          curl -X POST https://api.github.com/repos/$DISPATCH_REPO/dispatches \
+          -H "Accept: application/vnd.github.everest-preview+json" \
+          -d '{"event_type": "lbt_grasshopper_release", "client_payload": {"version": "${{ steps.new_release.outputs.tag }}"}}' \
+          -u ladybugbot:$DEPS_TOKEN
