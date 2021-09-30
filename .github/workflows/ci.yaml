@@ -40,7 +40,7 @@ jobs:
           npm install @semantic-release/exec
       - name: run semantic release
         id: new_release
-        run:
+        run: |
           nextRelease="`npx semantic-release@^17.0.0 --dryRun | grep -oP 'Published release \K.*? ' || true`"
           npx semantic-release@^17.0.0
           echo "::set-output name=tag::$nextRelease"
