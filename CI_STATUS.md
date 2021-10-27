@@ -69,6 +69,5 @@ Status of all repositories that make up the Ladybug Tools SDK.
 [![Build Status](https://github.com/ladybug-tools/honeybee-grasshopper-energy/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-grasshopper-energy/actions) honeybee-grasshopper-energy
 
 [![Build Status](https://github.com/ladybug-tools/honeybee-grasshopper-radiance/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-grasshopper-radiance/actions) honeybee-grasshopper-radiance
-dragonfly-grasshopper
 
 [![Build Status](https://github.com/ladybug-tools/dragonfly-grasshopper/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-grasshopper/actions) dragonfly-grasshopper
