@@ -1,4 +1,4 @@
-lbt-dragonfly==0.8.535
+lbt-dragonfly==0.8.536
 ladybug-rhino==1.34.3
 lbt-recipes==0.20.5
 honeybee-standards==2.0.5
