@@ -1,6 +1,6 @@
 lbt-dragonfly==0.9.34
 ladybug-rhino==1.35.0
-lbt-recipes==0.21.5
+lbt-recipes==0.22.0
 honeybee-standards==2.0.5
 honeybee-energy-standards==2.2.4
 ladybug-grasshopper-dotnet==1.2.2
