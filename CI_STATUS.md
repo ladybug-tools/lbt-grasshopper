@@ -14,6 +14,10 @@ Status of all repositories that make up the Ladybug Tools SDK.
 
 [![Build Status](https://github.com/ladybug-tools/ladybug-comfort/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-comfort/actions) ladybug-comfort
 
+[![Build Status](https://github.com/ladybug-tools/ladybug-display/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-display/actions) ladybug-display
+
+[![Build Status](https://github.com/ladybug-tools/ladybug-display-schema/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-display-schema/actions) ladybug-display-schema
+
 ### Honeybee Libraries
 
 [![Build Status](https://github.com/ladybug-tools/lbt-honeybee/workflows/CI/badge.svg)](https://github.com/ladybug-tools/lbt-honeybee/actions) lbt-honeybee
@@ -29,6 +33,8 @@ Status of all repositories that make up the Ladybug Tools SDK.
 [![Build Status](https://github.com/ladybug-tools/honeybee-radiance-folder/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-radiance-folder/actions) honeybee-radiance-folder
 
 [![Build Status](https://github.com/ladybug-tools/honeybee-radiance-command/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-radiance-command/actions) honeybee-radiance-command
+
+[![Build Status](https://github.com/ladybug-tools/honeybee-radiance-postprocess/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-radiance-postprocess/actions) honeybee-radiance-postprocess
 
 [![Build Status](https://github.com/ladybug-tools/honeybee-schema/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-schema/actions) honeybee-schema
 
