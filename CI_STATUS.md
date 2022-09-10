@@ -60,8 +60,6 @@ Status of all repositories that make up the Ladybug Tools SDK.
 
 [![Build Status](https://github.com/pollination/handlers-python/workflows/CI/badge.svg)](https://github.com/pollination/handlers-python/actions) pollination-handlers
 
-[![Build Status](https://github.com/pollination/queenbee-local/workflows/CI/badge.svg)](https://github.com/pollination/queenbee-local/actions) queenbee-local
-
 ### Rhino/Grasshopper Libraries
 
 [![Build Status](https://github.com/ladybug-tools/lbt-grasshopper/workflows/CI/badge.svg)](https://github.com/ladybug-tools/lbt-grasshopper/actions) lbt-grasshopper
