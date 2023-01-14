@@ -14,6 +14,8 @@ Status of all repositories that make up the Ladybug Tools SDK.
 
 [![Build Status](https://github.com/ladybug-tools/ladybug-comfort/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-comfort/actions) ladybug-comfort
 
+[![Build Status](https://github.com/ladybug-tools/ladybug-radiance/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-radiance/actions) ladybug-radiance
+
 [![Build Status](https://github.com/ladybug-tools/ladybug-display/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-display/actions) ladybug-display
 
 [![Build Status](https://github.com/ladybug-tools/ladybug-display-schema/workflows/CI/badge.svg)](https://github.com/ladybug-tools/ladybug-display-schema/actions) ladybug-display-schema
@@ -23,6 +25,8 @@ Status of all repositories that make up the Ladybug Tools SDK.
 [![Build Status](https://github.com/ladybug-tools/lbt-honeybee/workflows/CI/badge.svg)](https://github.com/ladybug-tools/lbt-honeybee/actions) lbt-honeybee
 
 [![Build Status](https://github.com/ladybug-tools/honeybee-core/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-core/actions) honeybee-core
+
+[![Build Status](https://github.com/ladybug-tools/honeybee-display/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-display/actions) honeybee-display
 
 [![Build Status](https://github.com/ladybug-tools/honeybee-energy/workflows/CI/badge.svg)](https://github.com/ladybug-tools/honeybee-energy/actions) honeybee-energy
 
