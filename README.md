@@ -22,6 +22,9 @@ following Grasshopper plugin packages:
 * [honeybee-grasshopper-energy](https://github.com/ladybug-tools/honeybee-grasshopper-energy)
 * [dragonfly-grasshopper](https://github.com/ladybug-tools/dragonfly-grasshopper)
 
+All of the repositories above contain only Grasshopper components and their
+source code.
+
 ## Installation
 
 See [the wiki of this repository](https://github.com/ladybug-tools/lbt-grasshopper/wiki)
