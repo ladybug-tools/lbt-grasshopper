@@ -54,6 +54,8 @@ Status of all repositories that make up the Ladybug Tools SDK.
 
 [![Build Status](https://github.com/ladybug-tools/dragonfly-energy/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-energy/actions) dragonfly-energy
 
+[![Build Status](https://github.com/ladybug-tools/dragonfly-radiance/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-radiance/actions) dragonfly-radiance
+
 [![Build Status](https://github.com/ladybug-tools/dragonfly-uwg/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-uwg/actions) dragonfly-uwg
 
 [![Build Status](https://github.com/ladybug-tools/dragonfly-schema/workflows/CI/badge.svg)](https://github.com/ladybug-tools/dragonfly-schema/actions) dragonfly-schema
