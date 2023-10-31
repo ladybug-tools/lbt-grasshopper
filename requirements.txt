@@ -1,4 +1,4 @@
-ladybug-grasshopper==1.57.0
+ladybug-grasshopper==1.57.1
 honeybee-grasshopper-core==1.33.0
 honeybee-grasshopper-radiance==1.33.0
 honeybee-grasshopper-energy==1.50.2
