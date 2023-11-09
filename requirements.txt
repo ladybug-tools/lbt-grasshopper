@@ -2,4 +2,4 @@ ladybug-grasshopper==1.57.3
 honeybee-grasshopper-core==1.33.2
 honeybee-grasshopper-radiance==1.33.2
 honeybee-grasshopper-energy==1.50.4
-dragonfly-grasshopper==1.49.1
+dragonfly-grasshopper==1.49.2
