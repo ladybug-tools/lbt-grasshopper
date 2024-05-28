@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/ladybug-tools/lbt-grasshopper.svg?branch=master)](https://travis-ci.com/ladybug-tools/lbt-grasshopper)
+[![Build Status](https://github.com/ladybug-tools/lbt-grasshopper/workflows/CI/badge.svg)](https://github.com/ladybug-tools/lbt-grasshopper/actions)
 
 [![IronPython](https://img.shields.io/badge/ironpython-2.7-red.svg)](https://github.com/IronLanguages/ironpython2/releases/tag/ipy-2.7.8/)
 
