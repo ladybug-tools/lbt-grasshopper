@@ -1,6 +1,5 @@
-pytest==6.2.4
-pytest-cov==2.12.1
-twine==3.4.2
-wheel==0.38.1
-setuptools==65.5.1
-importlib-metadata==4.6.1
+pytest==8.3.2
+twine==5.1.1
+wheel==0.44.0
+setuptools==75.1.0
+importlib-metadata==8.5.0
