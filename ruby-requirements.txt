@@ -1,2 +1,2 @@
-honeybee-openstudio-gem==2.38.15
+honeybee-openstudio-gem==2.38.16
 lbt-measures==0.2.4
