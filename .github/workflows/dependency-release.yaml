@@ -139,6 +139,33 @@ jobs:
         git commit -m "fix(deps): Bump dragonfly-grasshopper to $VERSION"
         git push
 
+  bump_fairyfly_grasshopper:
+    name: "Check Event"
+    runs-on: ubuntu-latest
+    if: github.event.action == 'fairyfly_grasshopper_release'
+    steps:
+    - name: "Checkout Master Branch"
+      uses: actions/checkout@v2
+      with:
+        ref: refs/heads/master
+        token: ${{ secrets.DEPS_UPDATING }}
+    - name: "Run Update Script"
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        export CLEAN_VERSION=$(echo $VERSION | sed 's/v//g')
+        sed -i --regexp-extended 's/(fairyfly-grasshopper==).*/fairyfly-grasshopper=='"$CLEAN_VERSION"'/' requirements.txt
+    - name: "Commit and Push Changes"
+      id: push
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        git config --global user.name 'ladybugbot'
+        git config --global user.email 'ladybugbot@users.noreply.github.com'
+        git add .
+        git commit -m "fix(deps): Bump fairyfly-grasshopper to $VERSION"
+        git push
+
   bump_lbt_dragonfly:
     name: "Check Event"
     runs-on: ubuntu-latest
@@ -164,6 +191,33 @@ jobs:
         git config --global user.email 'ladybugbot@users.noreply.github.com'
         git add .
         git commit -m "chore(deps): Bump lbt-dragonfly to $VERSION"
+        git push
+
+    bump_fairyfly_therm:
+    name: "Check Event"
+    runs-on: ubuntu-latest
+    if: github.event.action == 'fairyfly_therm_release'
+    steps:
+    - name: "Checkout Master Branch"
+      uses: actions/checkout@v2
+      with:
+        ref: refs/heads/master
+        token: ${{ secrets.DEPS_UPDATING }}
+    - name: "Run Update Script"
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        export CLEAN_VERSION=$(echo $VERSION | sed 's/v//g')
+        sed -i --regexp-extended 's/(fairyfly-therm==).*/fairyfly-therm=='"$CLEAN_VERSION"'/' dev-requirements.txt
+    - name: "Commit and Push Changes"
+      id: push
+      env:
+        VERSION: ${{ github.event.client_payload.version }}
+      run: |
+        git config --global user.name 'ladybugbot'
+        git config --global user.email 'ladybugbot@users.noreply.github.com'
+        git add .
+        git commit -m "chore(deps): Bump fairyfly-therm to $VERSION"
         git push
 
   bump_ladybug_rhino:
