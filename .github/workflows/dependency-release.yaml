@@ -193,7 +193,7 @@ jobs:
         git commit -m "chore(deps): Bump lbt-dragonfly to $VERSION"
         git push
 
-    bump_fairyfly_therm:
+  bump_fairyfly_therm:
     name: "Check Event"
     runs-on: ubuntu-latest
     if: github.event.action == 'fairyfly_therm_release'
