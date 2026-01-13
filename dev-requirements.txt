@@ -4,4 +4,4 @@ ladybug-rhino==1.43.13
 lbt-recipes==0.26.24
 honeybee-standards==2.0.7
 honeybee-energy-standards==2.3.0
-ladybug-grasshopper-dotnet==1.3.4
+ladybug-grasshopper-dotnet==1.3.5
