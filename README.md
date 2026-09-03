@@ -21,6 +21,7 @@ following Grasshopper plugin packages:
 * [honeybee-grasshopper-radiance](https://github.com/ladybug-tools/honeybee-grasshopper-radiance)
 * [honeybee-grasshopper-energy](https://github.com/ladybug-tools/honeybee-grasshopper-energy)
 * [dragonfly-grasshopper](https://github.com/ladybug-tools/dragonfly-grasshopper)
+* [fairyfly-grasshopper](https://github.com/ladybug-tools/fairyfly-grasshopper)
 
 All of the repositories above contain only Grasshopper components and their
 source code.
