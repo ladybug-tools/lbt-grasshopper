@@ -23,8 +23,7 @@ following Grasshopper plugin packages:
 * [dragonfly-grasshopper](https://github.com/ladybug-tools/dragonfly-grasshopper)
 * [fairyfly-grasshopper](https://github.com/ladybug-tools/fairyfly-grasshopper)
 
-All of the repositories above contain only Grasshopper components and their
-source code.
+All of the repositories above contain only Grasshopper components and their source code.
 
 ## Installation
 
